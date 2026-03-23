@@ -1,0 +1,77 @@
+id,ns_kode,oppgavekode,lokasjon_navn,beskrivelse,obligatorisk,first_occurrence_day,first_occurrence_month,interval_months
+200.01,200,200.01,Teknisk rom,,false,1,3,12
+200.02,200,200.02,Teknisk rom,,false,1,5,6
+200.03,200,200.03,Skadedyrkontroll,,false,1,3,12
+200.04,200,200.04,Bygningsmessig tilstandsvurdering,,false,1,2,12
+237.01,237,237.01,Solavskjerming,,false,1,3,12
+237.02,237,237.02,Solavskjerming,,false,1,4,6
+262.01,262,262.01,Tak og taktekking,,false,1,5,6
+263.01,263,263.01,Røykluker og takluker med motor,,true,1,1,12
+265.01,265,265.01,"Taksluk, takavløp og takrenner",,false,1,5,6
+270.01,270,270.01,Fast inventar,,false,1,1,12
+271.01,271,271.01,Piper,,false,1,9,12
+278.01,278,278.01,Rekkverk og stiger,,false,1,9,12
+300.01,300,300.01,Generell brannrunde,,true,1,1,3
+310.01,310,310.01,Nettvann- og tilbakestrømmingsbeskyttelse,,true,1,4,6
+310.02,310,310.02,Kaldtvann - utekranner,,false,1,4,6
+310.03,310,310.03,Nettvann - avlesing vannmålere,,false,1,10,12
+312.01,312,312.01,Innvendig sluk,,false,1,4,6
+315.01,315,315.01,Utstyr for sanitærinstallasjon,,false,1,4,6
+315.02,315,315.02,Partikkelfilter forbruksvann,,false,1,10,3
+320.01,320,320.01,Varmt forbruksvann - dusjhoder og -slanger,,true,1,1,12
+325.01,325,325.01,Utstyr for varmeinstallasjoner,,false,1,12,3
+325.02,325,325.02,Ekspansjonstanker,,false,1,12,12
+325.03,325,325.03,Ekspansjonstanker,,false,1,9,12
+332.01,332,332.01,Sprinkleranlegg,,true,1,1,1
+332.02,332,332.02,Sprinkleranlegg,,true,1,10,12
+332.03,332,332.03,Sprinkleranlegg,,true,1,10,12
+333.01,333,333.01,Vanntåkeanlegg,,true,1,1,1
+333.02,333,333.02,Vanntåkeanlegg,,true,1,10,12
+333.03,333,333.03,Vanntåkeanlegg,,true,1,10,12
+350.01,350,350.01,"Teknisk komfortkjøling, isvann",,true,1,3,12
+350.02,350,350.02,"Teknisk komfortkjøling, isvann",,true,1,3,6
+353.01,353,353.01,Teknisk kjøling,,false,1,3,12
+360.01,360,360.01,Ventilasjonsaggregat,,false,1,3,12
+360.02,360,360.02,Ventilasjonsaggregat,,false,1,9,12
+362.01,362,362.01,"Ventilasjonsvifter for trapper, heissjakter, avfallsrom",,false,1,3,12
+365.01,365,365.01,Befukteranlegg,,true,1,11,12
+369.01,369,369.01,Tilfluktsrom og krigsventilasjon,,true,1,11,12
+381.01,381,381.01,Vannrensesystem,,false,1,11,12
+381.02,381,381.02,Vannbehandling og rensesystemer,,false,1,10,3
+381.03,381,381.03,Vannbehandling og rensesystemer,,false,1,11,12
+400.01,400,400.01,Elektrisk utstyr i fellesareal,,true,1,1,3
+400.02,400,400.02,Hovedkontroll - mellomkontroll - fordelinger,,true,1,5,12
+413.01,413,413.01,Lynvern - passive systemer,,true,1,3,6
+430.01,430,430.01,Elektrofordelinger - instruert personell,,true,1,11,12
+442.01,442,442.01,Lysarmaturer,,true,1,1,3
+443.01,443,443.01,Nødlys,,true,1,1,3
+443.02,443,443.02,Nødlys,,true,1,5,6
+443.03,443,443.03,Nødlys,,true,1,10,12
+454.01,454,454.01,El-kjeler og varmtvannsberedere,,false,1,10,12
+454.02,454,454.02,El-kjeler og varmtvannsberedere,,false,1,4,6
+542.01,542,542.01,Brannalarm,,true,1,1,1
+542.02,542,542.02,Brannalarm,,true,1,6,6
+542.03,542,542.03,Brannalarm,,true,1,6,12
+542.04,542,542.04,Brannalarm,,true,1,6,12
+542.05,542,542.05,Brannalarm,,true,1,1,3
+621.01,621,621.01,"Heis (inkl. løftebord, HC og trappeheis)",,true,1,9,12
+621.02,621,621.02,Andre installasjoner,,false,1,10,3
+624.01,624,624.01,Løftebord,,false,1,6,6
+625.01,625,625.01,Trappe- og HC-heis,,false,1,6,6
+626.01,626,626.01,Løftekraner og taljer,,true,1,12,12
+626.02,626,626.02,Løftekraner og taljer,,false,1,3,6
+627.01,627,627.01,"Servicebro, fasadevogner og gondoler (inkl. løpekatter)",,true,1,5,12
+651.01,651,651.01,Avfallssystemer,,false,1,5,12
+660.01,660,660.01,Fett og oljeutskiller,,false,1,6,6
+661.01,661,661.01,"Takluke, veggluke og roterende tak",,false,1,4,6
+725.01,725,725.01,"Bommer, pullerter, gjerder og porter",,false,1,4,6
+731.01,731,731.01,Lensepumper for grunn og overflatevann,,false,1,4,6
+731.02,731,731.02,Lensepumper for grunn og overflatevann,,false,1,8,12
+732.01,732,732.01,Gatevarmeanlegg - vannbåren,,false,1,11,6
+732.02,732,732.02,Gatevarmeanlegg - vannbåren,,false,1,9,12
+738.01,738,738.01,Utendørs damanlegg og fontener,,false,1,1,1
+738.02,738,738.02,Utendørs damanlegg og fontener,,false,1,5,6
+738.03,738,738.03,Utendørs damanlegg og fontener,,false,1,6,12
+745.01,745,745.01,Varmekabler utendørs,,false,1,11,6
+745.02,745,745.02,Varmekabler utendørs,,false,1,9,12
+773.01,773,773.01,Flaggstang,,false,1,4,6

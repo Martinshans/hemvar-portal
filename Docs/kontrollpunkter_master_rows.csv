@@ -1,0 +1,285 @@
+id,oppgave_master_id,kode,beskrivelse,bygningsdel
+0007c666-7316-4be6-925a-d3415420f1e5,325.01,1.3,Kontroller visuelt for lekkasjer og ødelagt isolasjon. Hør etter ulyder.,325
+012c93b8-7ef6-4fb4-88d7-7e48097d370b,332.02,1.2,Lukke evt. avvik fra servicerapporten,332
+014d9afb-5594-4e8a-ace7-1dfe8b73c228,360.01,1.12,Kontroller at plastslangene til manometrene er hele og er koblet sammen,360
+01e4d43a-eb35-4467-9341-50fe4b23e3ce,625.01,1.3,Foreta en testtur,625
+02ee19bf-0eb0-4da9-8d75-537571d70852,237.02,1.2,Kontroller innfesting og hengsler,237
+03c535eb-3092-4a48-a0f5-408d587e0d86,400.01,1.06,Kontroller at alle skjøteledninger med jordleder er koblet til støpsel med jord,400
+03db7e17-c62e-4ca6-9cd6-c2d2c419e198,350.02,1.03,"Kontroller temperaturer, trykk, pressosstater og oljenivå",350
+066e7dfe-062e-4625-b7a6-cae90cda124b,430.01,1.11,Kontroller at det alltid er reservesikringer tilgjengelig dersom det er skrusikringer,430
+06bd4319-2dec-4a7d-9e07-bc5157289548,738.01,1.3,Rens filter ved behov,738
+086032a6-e011-405e-bf6b-b15feaf2945c,350.01,1.3,Lagre servicerapport som dokumentasjon,350
+09a33d28-5efe-41c7-9629-46e09186d364,271.01,1.1,Utfør visuell kontroll av alle piper utvendig og innvendig,271
+0a139501-fff8-4d3b-9bcf-38713cb54347,443.01,1.3,Kontroller at ledeskilt er tilstrekkelig etablert eller om det evt. mangler skilt,443
+0aacb02f-5ff4-4919-bacb-637e5c0f4685,332.03,1.3,Lagre servicerapport som dokumentasjon,332
+0b3919aa-f382-4d35-b679-7c4bedb746b6,360.01,1.13,Kontroller at det er samsvar mellom skjermbilde på SD-anlegget og faktiske avleste verdier,360
+0e7e717a-94f3-43e9-aba1-c08482b2cca0,745.02,1.1,Bestill årlig service og vedlikehold av gatevarmeanlegget,745
+0eb0ce29-9d30-4013-bab4-fb62fba2bac5,263.01,1.3,Lagre servicerapport som dokumentasjon,263
+0fbaf090-a992-4b64-878e-db87fd7cadb4,542.02,1.1,Kontroller brannalarmsentral og paneler,542
+10e4cf98-602e-45e9-a8a6-45aa58bcdcf5,626.02,1.3,Foreta et testløft,626
+11c0adb2-ee0f-4a9a-b3e3-0ae9f697e399,381.02,1.1,Utfør gjennomspyling av Enwamatic-anlegg,381
+12879b83-edbe-4888-a649-688f424e18d8,725.01,1.1,Utfør funksjonstest,725
+12ae2f27-8be6-43d3-a32d-627fef758fb6,262.01,1.6,Kontroller at alle snøfangerne er i orden,262
+13079112-e788-42fe-8526-2977d47e0f80,738.03,1.1,Bestill årlig service og vedlikehold av dam- og fonteneanlegget,738
+13cd8ca5-172b-4145-afdf-af441447478a,400.01,1.12,Kontroller at det er lett tilgjengelig nødstoppsbrytere for alt maskineri,400
+1467415e-2b08-4c19-8795-19c1da35961c,725.01,1.4,Kontroller for skader og hærverk,725
+1486c9b8-13fd-49f4-8d15-75aa8ddb2e5a,381.03,1.2,Lukke evt. Avvik fra servicerapporten,381
+14b1102a-6b17-454e-bac6-a2fb790bf0ff,732.01,1.7,Kontroller for lekkasjer i fordelerstokk og øvrig røranlegg,732
+1639100c-298f-4636-a0c7-597b6aae5d0f,360.01,1.11,"Rengjør/støvsug varmegjennvinner, varmebatteri, kjølebatteri og aggregathus generelt",360
+166153a5-65ea-4398-b0a6-ba5aa85bdac6,360.02,1.1,"Bestill årlig kontroll, ettersyn og vedlikehold for ventilasjonsaggregatet",360
+16b1ad49-479f-4753-9e54-f69427b14533,400.01,1.09,Kontroller at varmeovner ikke er tildekket,400
+1a214217-15e9-4876-98a4-3c71a10131e6,200.03,1.1,Bestill årlig kontroll og ettersyn for skadedyrkontroll fra sertifisert leverandør,200
+1b4dfff5-7c04-44cc-879b-a2faacaf43d1,745.02,1.3,Lagre servicerapporten som dokumentasjon,745
+1bf7024c-9bc5-46af-bcf4-487f1dde5b35,381.01,1.1,Rens/skift filter,381
+1bffd7bd-4fb8-4232-a9e3-e4122a9c52de,325.03,1.2,Lukke evt. Avvik fra servicerapporten,325
+1c7858ce-3e85-48c4-91ea-6c77ffc8e801,454.02,1.2,Kontroller temperatur,454
+1f6146a0-7541-4d62-93a4-db7f76d4a1ba,312.01,1.4,Kontroller at sluk som er utsatt for frost etterfylles med frostvæske/glykol,312
+1fa2a9ff-b19a-4005-ad5b-e9b9a6dce935,263.01,1.2,Lukk evt. avvik fra servicerapport,263
+21aa1fc5-d9ec-4f90-b1fb-882aa2cb6f82,310.02,1.1,Kontroller at utekraner åpnes om våren og stenges om høsten,310
+21acdbf3-077d-4eb3-a37f-2b59df8e9373,732.01,1.5,Kontroller tur- og returtemperaturen,732
+227bd656-3900-44e4-8cd1-88752c398a94,624.01,1.3,Foreta en testtur,624
+229e697d-c873-492e-bd0b-0fd789e86d7c,443.02,1.2,Kontroller at alle markeringslys- og ledelys fungerer i hele bygget,443
+2307d2f4-3174-442c-8954-9f14bc4001ca,442.01,1.2,Visuell kontroll av alle lysarmaturer i fellesarealer og vurder behovet for gruppeskift,442
+23b821fb-6c5b-4d59-bc24-13163165cb79,738.02,1.3,Utfør generell funksjonstest iht. anleggets instruks,738
+23c95ee6-4028-4b82-85a8-629c509af14e,725.01,1.2,Lytt etter ulyder og smør ved behov,725
+2423526e-f3aa-4602-98b4-7af8c91bee54,732.01,1.8,Kontroller styrringspanel.,732
+255e984c-f465-4068-b8a8-1c45861ffb4f,312.01,1.2,Kontroller at det er tilstrekkelig med vann i alle vannlåser og etterfyll ved behov,312
+263534eb-cab8-41f4-9c20-60fa7cef74b9,300.01,1.06,Kontroller alarmoverføring og signaloverføring til brannsentral,332
+27062f46-ca27-4813-abcc-4803ff29f0ab,362.01,1.1,Kontroller at viften går som normalt,362
+2789e023-cfe8-48f6-884d-2cce70cc5dba,325.01,1.1,"Kontroller at alle pumper går uten ulyder, vibrasjoner eller lekkasjer og varmgang",325
+282d1d79-94db-49da-97fd-187893e659e9,362.01,1.2,Lytt etter ulyder,362
+2a27b9f8-daa6-4015-82b9-c2da432221d6,454.01,1.2,"Juster termostaten etter sesong/årstid, evt. Slå av om våren og på om høsten",454
+2a6e71aa-9fff-4eec-88cc-5fd675c8a4c6,731.01,1.1,Kontroller pumpen for ulyder og vibrasjoner,731
+2b9fd917-3d8b-4897-a222-0cc14b199ea0,200.04,1.01,"Kontroller fundamenter og grunnmur visuelt for skader, sprekkdannelser og fukt",216
+2bf61b7e-e847-4471-b7c6-3317f50f13c3,381.03,1.3,Lagre servicerapport som dokumentasjon,381
+2e13df73-5a5a-43d5-b6a5-427f08253bd2,350.02,1.01,Kontroller visuelt hele kjølemaskinen,350
+2e9ca640-8bd0-4bb6-9696-abdbdfdf51d6,300.01,1.09,Les av og registrer overtrykk og undertrykk i loggboken,333
+2f945f65-efb1-4d54-b3c9-fd34b95829a5,443.03,1.2,Lukke evt. avvik iht. servicerapport,443
+3314ad40-ecac-43c1-9d68-15235080cd32,430.01,1.10,Kontroller at skap/tavle/tavlerom er ryddig og rent,430
+3345da87-f3fb-4ef0-bd25-96d9520ed831,237.02,1.1,Kontroller løfte og sveivemekanismer,237
+337746bc-1cde-4c39-8394-989a06550830,362.01,1.3,Kontroller at sjalusispjeld åpner og lukker som tiltenkt,362
+33a6f397-48bd-45a9-a5d2-5060d99c2add,200.04,1.10,"Kontroller for sår, skader, riper eller løse/knuste fliser, skjøter eller gulvlister",255
+34fdd36d-1965-433f-86ca-8057eb5271b3,300.01,1.08,Kontroller alarmoverføring og signaloverføring til brannsentral,333
+3776b345-e411-4d4b-b551-dbaa025ec9ad,312.01,1.1,Kontroller at vannet renner i sluket,312
+3a226892-83f0-467a-8de6-9135b47ff81f,360.01,1.18,Kontroller at alle temperaturer er innenfor fastsatte intervaller,360
+3a4ec118-f7ce-4c2c-9867-e837af2a9657,430.01,1.07,Kontroller at indikasjonslampene er hele og at ingen indikerer feil,430
+3b15b113-8273-4ab6-b639-3fa2139c4797,200.03,1.2,Lukk evt. avvik fra servicerapport,200
+3bf092d2-6477-4eb5-8978-0651da5fe7bb,332.02,1.1,Bestill årlig kontroll og ettersyn av sprinkleranlegget fra FG-godkjent sprinklerfirma,332
+3cb54574-6733-4f32-a5cc-681df25fabcc,350.02,1.10,Kontroller at isolasjon på kjølemaskin og alle tilhørende rør er hele,350
+3d273f81-5b40-4e73-ba8a-5982a839290e,745.01,1.2,Kontroller at varmekablene er slått av om våren når det ikke lenger er fare for frost,745
+3d2b8b41-13c4-4058-b129-47e3168ffb7a,443.02,1.1,Kontroll batteripakke: Slå av strømtilførsel for nødlys og sjekk at batteri varer minst 1 time,443
+3e8907d3-a1f1-47cb-acbb-72e660e1f47b,325.03,1.3,Lagre servicerapport som dokumentasjon,325
+3eb32ee5-f028-46a5-869f-f44be211fed9,660.01,1.5,Bestill tømming ved behov,660
+3f07bafa-f780-4314-9889-9a27a80cdb6f,262.01,1.4,Kontroller at alle gjennomføringer er tette,262
+3f37ee14-db59-4d7c-bbe5-d4d76a8456a3,365.01,1.3,Lagre servicerapport som dokumentasjon,365
+3fb193b6-2607-47ae-9c81-11c843bf0427,360.01,1.17,Etterfhyll sluk i tilfluktsaggregat og i tekniske rom,360
+404dfbcc-5ff1-4dbf-a828-bd09fb7783f2,430.01,1.02,"Kontroller merking, stenging og låsfunksjon av tavledør",430
+40b9e6dd-e351-4723-b75c-3fcb4d6e715d,745.01,1.5,Kontroller at kursen til varmekablene i fordelingsskap,745
+423f6de5-9acd-4cbf-aac2-ce85b5d0bf86,651.01,1.1,"Bestill årlig kontroll, ettersyn og vedlikehold på komprimator og avfallssystemer",651
+461df133-50b2-4e8b-ae61-9ddf9363ccb4,542.02,1.3,Kontoller nødstrømsbatterier hvis det er aktuelt,542
+47b99249-4809-4ab8-ac36-d944d638a722,413.01,1.3,Kontroller at lynfangere ikke er bøyd eller knekt,413
+47e17a11-bf9c-4596-8a62-115dec893f39,430.01,1.08,Kontroller merking og kapslinger,430
+47e196f8-603f-4ec8-bab5-7edb9d2f86f9,627.01,1.2,Lukk evt. avvik fra servicerapporten,627
+48c1f7e3-6927-4eb1-9925-f43e51508480,627.01,1.3,Lagre servicerapporten som dokumentasjon,627
+49d75b8b-3db6-4cf7-b63c-a01dc1cd7d78,400.01,1.05,Kontroller at skjøteledninger brukes i samme rom som de er tilkoblet støpsel,400
+49db39dd-a8fe-42d3-9f44-78c13c079290,333.02,1.1,Bestill årlig kontroll og ettersyn av vanntåkeanlegget fra sertifisert leverandør,333
+49e5e271-9600-421e-991c-c53b1e2fc191,300.01,1.07,Les av og registrer overtrykk og undertrykk i loggboken,332
+4af0a1a2-a8a5-42ea-99b6-c7f02e4a4586,542.03,1.3,Lagre servicerapporten som dokumentasjon,542
+4c1baced-285b-405e-8ff8-e3e4782bc4dc,200.04,1.08,"Kontroller for riss, skader, avskalling (murpuss, maling), korrosjon og frostsprengning",235
+5248ac4a-b991-484b-a5b9-2acd8d9ab03e,651.01,1.3,Lagre servicerapporten som dokumentasjon,651
+5266e085-eb18-4ab9-aa3d-d5826d763cf1,310.02,1.3,Kontroller at eventuelle krannøkler er på plass,310
+551b31e6-f241-4c76-9754-14e8fe4f5ff0,315.02,1.1,Bytt alle filter,315
+562d8265-5285-4c82-813d-bea5e203c5de,325.01,1.4,"Kontroller alle radiatorer for luft, ulyder og lekkasjer",325
+574e658a-1a95-47e2-8c51-9276202cee7b,300.01,1.10,"Utfør stikkprøver og kontroller oblat, veggfester, manometer og plombering",334
+582eef50-9255-4c70-ac8f-bce4dd13b830,333.02,1.3,Lagre servicerapport som dokumentasjon,333
+587c615a-e2fc-4023-87cc-2963a0ceb01c,731.01,1.3,Spyl pumpekummer med vannslange,731
+58ef06cb-e9ae-4eae-994f-6632dd03770d,262.01,1.2,Kontroller takbelegg og/eller membraner,262
+5a232292-f3f4-4a3b-bd1e-5201cae0cf36,237.01,1.1,Bestill årlig kontroll og ettersyn for solavskjerming,237
+5a2e5f2d-81f5-40e9-a347-7700b3f66d3d,732.01,1.4,"Kontroller tilstrekkelig med glykol i vann/glykolblandingen, slik at mengdeforholdet er korrekt",732
+5a34072d-226b-4aaa-9a84-1d9b01729426,200.04,1.07,Kontroller at dører og tetningslister er uten skader og at låsene fungerer. Smør ved behov.,234
+5a90c9cd-881b-4098-8e62-9fc276386a2f,400.01,1.10,Kontroller at synlig elektrisk utstyr er rene for nedstøvning eller skitt,400
+5acba3e3-29cd-4340-b048-6a9b9d781844,443.03,1.1,"Bestill årlig kontroll, ettersyn og vedlikehold på nødlysanlegget mv.",443
+5ad6aa1e-598d-40b6-9459-8125bb58e6d0,360.01,1.14,"Kontroller utkastrist for løv, is snø, smus etc. og rengjør ved behov",360
+5b0fc395-6dca-4385-b9e2-5027667ee619,542.02,1.4,Utfør klokkeprøve,542
+5b30602e-be86-4814-8911-46d587434e44,400.02,1.1,Bestill elkontroll for alle elektrofordelinger inkl. termografering (ved behov) iht. IK-Elektro,400
+5b8351e6-9768-41e9-add9-aca98b946ace,430.01,1.09,Kontorller branntettinger dersom tavle står i egen branncelle,430
+5d5f8723-1f47-4ef9-a9cf-442aa6437ca7,738.02,1.2,"Utfør nedtapping, frostsikring av utendørs fontener og damanlegg i god tid før første frostnatt om høsten",738
+5d98b530-0d14-4af7-a26e-da56dfbf292d,333.03,1.2,Lukke evt. avvik fra servicerapporten,333
+5dcee556-e394-482d-9231-915f9bc8e0ed,369.01,1.3,Lagre servicerapport som dokumentasjon,369
+5ee637a0-b186-45f9-a5cb-9fad99d68410,400.01,1.02,Kontroller at det er tilstrekkelig med stikkontakter i alle rom,400
+5f3c29fd-7847-4bc1-a16e-e4539721ae24,315.01,1.3,Kontroller låsemekanismen på toalettdørene,315
+600321c3-8cf7-4834-b7a2-fa7f746f38ae,360.01,1.09,Kontroller filterposene er hele og er tett mot pakningen rundt hele filteret,360
+60674933-2af7-4ee4-89d6-840f6bcaa78e,732.02,1.1,Bestill årlig service og vedlikehold av gatevarmen,732
+60b78c3b-2d9a-4cf9-ab14-d345357334db,315.01,1.1,"Kontroller toalleter, vasker og dusjer i felles arelar for lekkasje",315
+621215bb-6fd2-4497-9d7d-a12afa92e936,732.01,1.6,"Kontroller at pumpen går uten ulyder, vibrasjoner eller har lekkasjer eller varmgang",732
+62c4493d-6aa6-4057-8818-a95e039bc6b8,350.01,1.1,"Bestill årlig kontroll, ettersyn og vedlikehold for kjøleanlegget",350
+640f7809-5363-4614-b787-f6f2bc49d6b4,542.04,1.1,Gjennomfør fullskala evakueringsøvelse,542
+65009069-7fa4-4414-80a3-ea1dc025a9e6,310.02,1.2,Kontroller at kraner ikke lekker og at de er lette og betjene,310
+65674534-bd39-4485-a243-50d50f0b25ba,200.04,1.03,"Kontroller for sprekker, råte og avbøyninger. Er det behov for overflatebehandling?",222
+66556c42-9464-485d-9a02-a2f06ffd605b,265.01,1.2,Kontroller takrenner for rust og lekkasje,265
+66dd226d-bd8d-43ce-a2c9-04688b03b653,360.01,1.07,Kontroller at roterende varmegjennvinner løper lett og smør opp ved behov,360
+6722677c-0800-47ad-98f5-ae05587a31cf,325.02,1.1,Kontroller for trykk og væskenivå,325
+68042eae-e4f3-43a4-bf0f-e7af8f51f673,443.01,1.2,Kontroller at alle markerings- og ledelys fungerer,443
+685751c3-57df-4d2c-8ac0-585cfd2b74af,350.02,1.11,Tapp evt. kompressor for kondens,350
+68a20965-c5d5-4749-a2cb-a62521f81c29,430.01,1.04,"Kontroller at sikringer, kabler og annet utstyr for synlige skader og unormal varme/lukt",430
+68fea953-076d-4b8f-b150-81f008b34daf,621.02,1.1,"Kontroller at heismaskinrom er ryddig og rent, og rapporter om evt. Avvik",621
+692080f8-9666-484e-b1df-ab35fa6da4d7,237.01,1.2,Lukke evt. avvik fra servicerapport,237
+6ab80a3a-d390-4fc6-ae14-9a98daffe4c7,265.01,1.5,Kontroller at varmekablene i takrenner og rundt takslukene er på/av og generell funksjon,265
+6b423788-a643-4b1a-a03a-e6272228595d,745.01,1.7,"Utfør visuell kontroll av alle utearealer varmekablene betjener, se om smelteeffekt er tilstrekkelig",745
+6c7ca7db-6671-4ba3-9b82-7354012b449c,443.02,1.3,Kontroller at ledeskilt er tilstrekkelig etablert om evt. mangler skilt,443
+6d2a36da-88bd-44d0-92f6-5119939201d4,731.01,1.2,Kontroller at pumpen starter manuelt via nivåvippen og via styreskap,731
+6defec58-4e31-41cc-bde6-fbfcc4b4ab68,353.01,1.3,Støvsug/vask filter på fancoil ved behov,353
+6e3c3cdc-1f21-45b9-920e-4fb85c5a3876,237.01,1.3,Lagre servicerapport som dokumentasjon,237
+6fbd6ea9-09ec-4117-9787-31b4726bebb5,454.02,1.3,Kontroller driftstrykket,454
+6ffee202-eb33-43eb-abb2-58e8572ae54e,360.01,1.10,Kontroller at spjeldene åpner og lukker helt,360
+708294b6-c82d-4e17-abca-1abfd4f0fe4b,732.01,1.9,Utfør visuell kontroll av alle utearealer anlegget betjener og se om smelteeffekt er tilstrekkelig,732
+72c622e0-d069-4ee0-83d5-eecc92ad52d2,332.03,1.1,Bestill årlig kontroll og ettersyn av sprinkleranlegget fra uavhengig kontrollør,332
+732ae3a3-a72f-4dba-a4e5-936f6e0fc215,278.01,1.3,Kontroller at alle stiger og rekkverk er festet på en sikker måte og at alle fester er intakte.,278
+73f644cc-231e-4825-b271-c122bff866db,738.02,1.4,Kontroller at pumpe fungerer og løper uten ulyder og varmgang. Luft pumpe ved behov.,738
+7413b44c-2bff-4905-8906-a4259f715d1d,333.01,1.1,Les av og registrer overtrykk og undertrykk i loggboken,333
+74657ec1-193b-44b2-9b0e-e089cc656f18,350.02,1.09,Kontroller at funksjon på tvillingpumper fungerer som den skal,350
+75e15a50-6c06-4a43-8182-8f21e141644c,278.01,1.2,"Kontroller stiger og rekkverk for skader, deformasjon og/eller rust",278
+7870700b-8a2e-4d42-b34c-be4c314c2cdc,200.04,1.09,"Kontroller vegger og tak for sår, skader, avflasset maling og løse elementer",246
+78f7bc8f-bfb7-4f31-ba4c-974a76bd5c42,624.01,1.1,Utfør generell visuell kontroll av løftebordet,624
+791b7519-c61c-432a-b9e2-1dbcdef6d961,325.01,1.2,Kontroller vekslingsfunskjon til tvillingpumper,325
+7924e69b-be40-4154-832f-4354c3b65442,270.01,1.1,Kontroller alt fast inventar for skader og funksjon,270
+7975636c-ec6c-4478-a813-0dc0057d2275,624.01,1.4,Kontroller at nødstopp fungerer,624
+7aa63f5c-a04e-46ea-b9dd-17c07350a2ce,381.01,1.3,Spyl gjennom systemet,381
+7afa4911-9028-4935-b942-5692c09a6318,381.03,1.1,"Bestill årlig kontroll, ettersyn og vedlikehold for vannrenseanlegget",381
+7b8525b6-8b28-4542-a923-78832bd411cb,360.01,1.15,Kontroller at lys inne i ventilasjonsaggregatet fungerer,360
+7db78798-75c9-44bc-8fd9-f73844d6cb5b,353.01,1.2,"Kontroller funksjon, evt. Vifte og kondens",353
+7db94311-afae-4261-a50f-b787c0cceaa7,660.01,1.2,Kontroller om rengjøring av pumpekum er nødvendig,660
+809543c1-039d-4c66-af42-88f85c373957,660.01,1.4,Kontroller vannivå i kum,660
+8248b736-fc68-430b-b30f-454dc4b272e3,360.01,1.04,Kontroller stramming av reim og påse at vippebrakket for drivmotoren er innenfor rett posisjon,360
+826096f1-8dab-4c43-b85a-f0b6461c6059,738.01,1.2,Fjern løv og avfall fra dam og sluk ved behov,738
+828d6c23-27c4-4f94-a24d-43383506a27c,400.01,1.08,Kontroller om det finnes elektriske apparater som er skadet eller unormalt varme,400
+82bd2785-893d-422a-9c34-26b32bf25d0b,732.01,1.2,Kontroller at gatevarmen er slått av om våren når det ikke er lenger er fare for frost,732
+836fd940-bb44-4028-ad3c-a5896f743315,430.01,1.05,Kontroller at oppdaterte el-skjemaer og kursfortegnelser ligger i hvert fordelingsskap,430
+83ae9cd3-0c51-4154-b40c-87e2815b7544,360.02,1.2,Lukke evt. Avvik fra servicerapporten,360
+84a2f702-469d-4052-b20b-379c4c360a0e,738.03,1.3,Lagre servicerapporten som dokumentasjon,738
+85bf0990-a730-461f-bea6-34c7a65761dd,745.01,1.4,Kontroller at termostaten er justert ift. sesong/årstid,745
+8606742b-3997-4d2c-a1f8-9016b4aadd0d,265.01,1.1,"Kontroller at alle taksluk, takavløp og takrenner er åpne og frie for løv, søppel og andre hindringer",265
+869bed10-2b53-4b3b-877c-ac85de0235e7,738.01,1.1,Kontroller at pumpen fungerer,738
+87698118-6bb1-40cf-b55b-f6c631ee30be,315.01,1.4,Kontroller at fotoceller til urinaler og relevante vasker fungerer,315
+87c817f9-1450-4a45-bf4f-3b85aaeb686d,333.03,1.1,Bestill årlig kontroll og ettersyn av vanntåkeanlegget fra uavhengig kontrollør,333
+890029ff-91dd-497a-bf78-a006a20b8046,325.02,1.2,Kontroller for lekkasjer og skader,325
+892b570e-f979-49bc-9947-1c62aa90a25e,745.01,1.6,Kontroller at alle varmekabler rundt taksluk og takrenner fungerer,745
+89db037a-4b97-4799-b84c-a75f6900e37a,745.01,1.3,Kontroller funksjon og betjeningspanel,745
+8aef0b41-7383-474a-9fa1-5d3fe3defc49,621.01,1.2,Lukk evt. avvik fra servicerapporten,621
+8cb18bd2-dc63-486e-97e8-44b4beb19a46,542.05,1.1,Kontroller alarmoverføring til brannvesenet,542
+8d94212a-51d1-44cc-8737-85de0a0a3837,353.01,1.4,"Lytt etter ulyder, unormale vibrasjoner og se etter lekkasjer",353
+8e07cec8-2403-47c1-89ed-faf1e1b7792a,369.01,1.1,"Bestill årlig kontroll, ettersyn og vedlikeohold for tilfluktsrom",369
+8e1bafc0-de1d-43fe-a859-fcecae1f3a97,200.04,1.13,Kontroller for skader og sprekkdannelser,282
+8e48d710-742e-4719-b1d3-d7ca94186eca,732.02,1.3,Lagre servicerapporten som dokumentasjon,732
+91042e4f-68a6-4897-b70c-47c7de627794,738.02,1.1,Utfør igangsetting av utendørs fontener og damanlegg på våren,738
+93097589-3677-45f1-b787-41195906dc89,320.01,1.1,Spyl gjennom alls dusjer og utslagsvasker i 3 minutter med blandet kaldt og varmt vann med trykk,320
+94a60b39-0010-476a-a96e-bd3e84ae031f,262.01,1.3,Kontroller at all takstein er på plass,262
+94eec28e-1360-45a4-9cee-2430115b1ad1,413.01,1.1,Utfør visuell kontroll fra bakken og fra tak av nedledere og koblinger i forgreininger,413
+95cb15b0-f267-4cab-b79e-2d93315c6432,350.02,1.07,Kontroller at alle tilkoblinger er i orden og varmgang ikke forekommer,350
+960a41d3-20c5-4b7d-a442-130b4a6a3e8b,773.01,1.2,Kontroller at flaggline er festet forsvarlig fast til flaggstang,773
+97244593-9974-4bf7-9e5e-cf912ee06179,732.01,1.3,Kontroller driftstrykket og om det er nok væske/glykol på anlegget (i rørsløyfene),732
+99f0b2d6-9850-4d18-9e1c-a7021febde39,542.02,1.2,Kontroller overføring til brannvesenet,542
+9a2cc7ba-b465-4fa1-8674-691ac969e4e1,626.01,1.2,Lukk evt. avvik fra servicerapporten,626
+9a730c8f-cc99-4a3c-9617-c986b178af18,310.01,1.1,Kontroller at tilbakestrømningsbeskyttelsen på hovedinntaket fungerer som tiltenkt,310
+9b87a002-d6db-40c3-a466-b7e0ef817d2f,332.02,1.3,Lagre servicerapport som dokumentasjon,332
+9b8caccc-680b-4e66-9fdd-fb2277e04f78,200.04,1.05,Kontroller glassfasader for skader og sprekker,233
+9c2cc40d-a72c-43cb-bef0-19bda57ede40,626.02,1.4,Kontroller at nødstopp og at annen elektronikk fungerer,626
+9c8cd680-66bb-4bdf-bacb-54566cf3230a,738.03,1.2,Lukk evt. Avvik fra servicerapporten,738
+9cd810c8-b813-45d0-b1ac-6520fc4ddd90,660.01,1.3,Kontroller at pumpen går uten ulyder og vibrasjoner (start pumpen manuelt),660
+9e80d8dc-d05e-4d56-8337-885e22b2cb3d,430.01,1.12,Kontroller at overspenningsvern er intakt,430
+9eb05818-1de9-483b-afd5-6e0f309548c7,360.01,1.01,"Kontroller at pumpen går og uten lyder, vibrasjoner eller har lekkasjer og/eller varmgang",360
+9eb76a1d-5287-4e26-ae8c-0192170cc0fd,200.04,1.12,Kontroller for skader og sprekkdannelser,281
+9f206a0e-8342-4d29-b16d-b36c2eaa6519,413.01,1.2,Kontroller om ledere ligger i takbrakkettene og om disse står støtt,413
+9f3256b7-d182-4064-9982-d1fc95bdd7d6,369.01,1.2,Lukke evt. avvik fra servicerapporten,369
+a086a8f7-0190-4f8f-a50f-504105e24dcc,360.01,1.08,Kontroller trykkfallet over filtrene og skfit ved behov,360
+a1a04b41-757d-4c11-9a36-0c83b5dee687,300.01,1.01,Kontroller funksjon og at dørpumper og holdemagneter fungerer tilfredstillende,249
+a5c508f2-9d5c-4ab0-aa90-359a7bff49d8,745.01,1.1,Kontroller at varmekablene er slått på før første frost i vintersesongen,745
+a87fa4e4-4ebe-49ec-b541-230890199c66,661.01,1.1,"Kontroller at mekanismene virker som det skal, at alle tau er hele og drivverk fungerer",661
+a9dadf78-ce7c-4e7f-83a7-526eaa794946,350.02,1.08,Kontroller for glykolnivå,350
+aab9bae0-e3e4-4a31-92ea-0b3830ffd152,315.01,1.2,Kontroller at alle toalletene ikke er skadet og er festet godt,315
+ab175e37-a53d-4f5b-afd4-3e35433624ab,262.01,1.7,"Kontroller taket for skader, løse deler, uønskede plantevekster, søppel og avfall",262
+ab606023-93c1-4951-ad33-45e76a8ff003,300.01,1.03,Utfør visuell kontroll og påse at at alt utstyr er intakt og uten skader,263
+ad6d9a37-71c4-464a-8f6e-e795e636524c,443.03,1.3,Lagre servicerapport som dokumentasjon,443
+adcff529-46b0-408e-8100-058d9c465a0a,443.01,1.1,Kontroller nødlyssentralen for alarmer og feilmeldinger,443
+aea9e86e-8318-4eaa-94b9-f8166a27a50a,353.01,1.1,Kontroller visuelt fancoil/kjølebaffel/kjøletårn,353
+b1283670-c78e-43fa-b1dd-e4bff1225f92,315.01,1.5,"Utfør funksjonstest på alle kraner, dusjer og toalleter",315
+b27eb448-5892-4aa7-908d-4ec4a457a412,624.01,1.2,Kontroller for skader og hindringer,624
+b2ac15b4-ff87-4c7d-a204-c63e830b9088,360.02,1.3,Lagre servicerapport som dokumentasjon,360
+b37090d0-3c7a-4696-bf88-f33893d25b6e,312.01,1.3,Kontroller at alle vannlåsene ikke er tette,312
+b403161e-23ac-4c97-82b7-851423414296,626.01,1.1,"Bestill årlig kontroll, ettersyn og vedlikehold av løftrekraner og taljer fra sertifisert leverandør",626
+b57cf967-6de6-46ff-b3fd-f2f6f3799484,430.01,1.03,Visuell kontroll: Er tavlen sikret mot tilfeldig berøring av spenningsførende deler?,430
+b6250a4f-7d09-412b-896c-7bef60d14f26,731.02,1.3,Lagre servicerapport som dokumentasjon,731
+b6ccda03-2682-40ba-b17d-7e9ea1d6a6c3,360.01,1.06,Kontroller lekkasjer under aggregat,360
+b7b4586c-3338-4609-932f-0eebbbe51bff,350.01,1.2,Lukke evt. avvik iht. servicerapport,350
+b96a5594-e4a2-46fd-91dc-8e3154826d02,442.01,1.1,Utfør visuell kontroll av ikke-LED lysarmaturer i fellesarealer,442
+b9d05e05-7e5e-4a2e-bea3-82e38e6fa44d,278.01,1.1,Utfør visuell kontroll av alle rekkverk og stiger,278
+baa8b2c6-ae86-4ce7-8815-25a18e28ca67,725.01,1.3,Kontroller at gjerder og porter sitter godt fast,725
+bbcf0213-490f-4530-865b-6e2c7b1fd04b,200.04,1.06,Kontroller alle vinduer for sprekker og knust glass. Er tetningslister hele?,234
+bc702d90-af34-4ae4-a490-81b25147831c,626.02,1.2,Kontroller at festeanordninger ikke er skadet og håndterer dimensjonert vekt,626
+bce7fedf-d844-4d9b-a71f-0ab8bb0e0a56,400.01,1.03,Kontroller at det ikke er overdreven bruk av skjøteledninger (maks 1 pr. stikkontakt),400
+bef52381-c87c-4e09-9f88-b41d49c93244,350.02,1.05,Rengjør varmeveksler og maskin generelt,350
+c0f6c5f8-4975-479f-94df-19e9fccb237b,626.01,1.3,Lagre servicerapporten som dokumentasjon,626
+c0f96955-06fb-42f0-83b2-17491b45b9b6,400.01,1.07,"Kontroller at varmeovner, og annet utstyr på over 1 KW, ikke er koblet via skjøteledning",400
+c2a5261a-9de8-48ec-9f46-ae3fddcdd102,360.01,1.03,Kontroller at viftehjul løper tett og lytt etter ulyder,360
+c2ec8eb2-ab0c-4598-a8a1-73b120e16f95,271.01,1.2,Kontroller at feiing av piper blir bestilt og utført for de pipene som er i bruk,271
+c41e420a-054e-4cf3-81da-da8b19c52770,660.01,1.1,Kontroller at automatikken virker,660
+c44d1b60-0088-4147-8f8b-12eda486e280,350.02,1.02,Se etter vann-/glykol-/oljelekkasjer og lytt etter ulyder,350
+c4cb4a4d-bbee-4ebc-b301-abd02b75d575,381.01,1.2,Kontroller nivår på tilsetningsstoffer,381
+c629bf0e-2a0a-4cc2-a4eb-3d7d6c0ea611,200.02,1.1,Generell visuell kontroll av orden og renhold i alle tekniske rom,200
+c88ca68d-f6d1-4ad9-8775-0511512ca2de,333.02,1.2,Lukke evt. avvik fra servicerapporten,333
+c9107ee1-7d58-4b7d-ab30-c9501cbcb1b2,310.03,1.1,Les av vannmåler og før inn verdien i avlesningsskjema,310
+c952c6d3-acff-4f3a-95d3-8fdbd41fa1f5,745.02,1.2,Lukk evt. Avvik fra servicerapporten,745
+c97e007e-973d-4196-9055-3cfd6d467a7f,360.01,1.05,Kontroller visuelt at ventiler har fornuftig posisjon ift. andre pådragskomponenter,360
+ca36eb42-220e-456b-8938-4e014b9ca44e,625.01,1.4,Kontroller at nødstopp fungerer,625
+caa85c79-305f-41e6-8e28-285e258e080a,263.01,1.1,Bestill årlig kontroll og ettersyn av røyk- og takkluker av sertifisert leverandør,263
+cbc6a411-b147-4f4b-99c2-19744ae6887e,625.01,1.2,Kontroller for skader og hindringer,625
+cc5de3fd-e0b0-4967-a41b-7cec5f6aa2d9,265.01,1.3,Kontroller at alle utvendige og innvendige nedløpsrør er hele,265
+ccb5011e-605b-4486-ab95-9cdf469e3f00,300.01,1.05,"Utfør stikkprøver, at de fungerer og at oblat fra service er godt synlig",331
+cd74e17a-e41e-4321-b436-6327f7a26177,400.02,1.2,Lukk evt. avvik iht. servicerapport,400
+ce975822-f4ba-431a-9fdf-335b0936ca96,262.01,1.1,Utfør visuell kontroll av tak og taktekking,262
+d0e40f6e-624a-4fe9-9231-96b1b93814bb,332.03,1.2,Lukke evt. Avvik fra servicerapporten,332
+d1ba6886-8e7e-4c29-af1e-0ccb76760be2,265.01,1.4,Kontroller at alle festeanordninger er i orden,265
+d1fbec62-46bb-45eb-b4ab-4580e8048378,626.02,1.1,Utfør generell visuell kontroll av løftekraner og taljer,626
+d2cf2a6c-446f-46a7-b99b-31d292cd6b9c,651.01,1.2,Lukk evt. Avvik fra servicerapport,651
+d2da61ff-bfcb-49b2-a61c-6e16ae71d6b6,365.01,1.1,"Bestill årlig kontroll, ettersyn og vedlikehold for befukteranlegget mv.",365
+d51c539b-b6f6-4920-9b8e-d06a6274c192,731.02,1.2,Lukk evt. Avvik fra servicerapport,731
+d5ab69ad-17f7-4579-8762-5246c0145d58,200.01,1.1,Hovedrengjøring og rydding av alle tekniske rom,200
+d815d774-8b67-4e20-99da-b3c0e344973c,300.01,1.02,Kontroller for hindringer og at rømningsplaner er på plass,249
+da02dbb8-fd04-44f5-95d3-3fb190eea60b,621.01,1.3,Lagre servicerapporten som dokumentasjon,621
+da72e18f-7605-491a-adf6-8612bf494422,325.03,1.1,Bestill årlig kontroll og ettersyn for ekspansjonstankene,325
+dc0dd480-93ae-44da-9780-abb89d83fc5f,365.01,1.2,Lukke evt. avvik iht. servicerapport,365
+df4b3a05-1d63-477e-a185-3ce8b7093951,454.01,1.1,Kontroller funksjon,454
+e044d8d8-1981-4f02-805e-e2b70fbe45c0,200.03,1.3,Lagre servicerapport som dokumentasjon,200
+e13187ff-0cdc-40be-a7ef-5d47557a623b,200.04,1.02,Kontroller for vanninnsamling langs grunnmur og grunnvannstand,217
+e150fbb2-d9eb-41fe-80e8-a5421fa98de8,430.01,1.01,Kontroller adkomst uten hindring til fordeling,430
+e2ef91b4-f3fe-4b50-bc71-8c975813dead,350.02,1.06,Kontroller om kompressor er varm,350
+e4811040-95e1-4836-94c3-be3100dad442,237.02,1.3,Utfør funksjonstest automatikk,237
+e4bb649e-bb4c-4373-86a0-7d485ef9d5e4,542.03,1.2,Lukk evt. avvik fra servicerapporten,542
+e69cced8-afd5-4723-8c9f-64d0d0a99413,360.01,1.02,Kontroller vekslingsfunksjon av tvillingpumper (varme- og kjølebatteri),360
+e6fcd3a4-bd24-4657-a039-0cd7aec1b0f3,300.01,1.04,Kontroller visuelt låsefunksjon og fjern evt. hindringer,281
+e73a5153-6a91-4a41-ba4f-337f6aa43a49,773.01,1.1,Kontroller at flaggstang er festet/forankret på forsvarlig måte,773
+e75699b3-0ba4-42ac-a7a3-9daf9ccf16cf,200.04,1.04,"Kontroller for sprekker, råte og deformasjoner. Er det behov for overflatebehandling?",223
+e878c33d-6913-4467-8691-818e24f73546,262.01,1.5,Kontroller alle takavslutninger ved gesimser og gavler,262
+e8c4ec47-bc40-491e-8bcb-3ecf74ec601f,454.02,1.1,Kontroller funksjon,454
+e8c7d7dc-91e4-4775-b882-fec8eadf8225,542.03,1.1,"Bestill årlig kontroll, ettersyn og vedlikehold på brannalarm fra sertifisert leverandør",542
+e969aa8e-72a4-4af1-b6a6-0792c4d7832c,430.01,1.13,Kontroller at skrusikringer er skrudd til (skrusikringer løsner over tid),430
+ea0a902f-7980-4e2a-9c1a-0d17dad26109,430.01,1.06,Kontroller at alle kurser er merket (skal være lett å finne om en sikring skulle ryke),430
+ea235eb0-fb1a-44b7-aa04-8eae3ce2c670,400.01,1.04,Kontroller at skjøteledninger ikke er festet,400
+ea2fe285-d353-4ba8-8176-59df48401c27,454.02,1.4,Kontroller for lekkasjer og ulyder (når varmeelementet slår inn),454
+eac7d3ff-7458-40b5-9110-696c1a78fa2f,333.03,1.3,Lagre servicerapport som dokumentasjon,333
+eb0c02b6-5008-4afc-9453-d3be71c629fb,200.04,1.11,"Kontroller for sår, skader, avflasset maling eller løse elementer",256
+ed35b012-4366-4e42-83b5-48ea077bb461,400.01,1.01,"Kontroller for skader og innfesting: kabler, stikkontakter, bryterer, armaturer og ovner",400
+ef36b2ef-b9fb-4e7e-95fe-6268fd1e4382,350.02,1.04,Kontroller display for alarmer og feilmeldinger,350
+f1957102-5c73-4442-a2e1-8164c28ec84a,732.02,1.2,Lukk evt. Avvik fra servicerapporten,732
+f3721fc3-5706-49ba-b252-c15366fa2c0c,332.01,1.1,Les av og registrer overtrykk og undertrykk i loggboken,332
+f6bc6dcf-48de-42e1-851e-ec73300d8558,731.02,1.1,Bestill årlig service og vedlikehold av lensepumper,731
+f7cc8f57-da50-47c8-9a4e-e27ccc65ff26,732.01,1.1,Kontroller at gatevarmen er slått på før første frost i vintersesongen,732
+f89dc35a-5771-44ac-9b37-02dfce5517d8,627.01,1.1,"Bestill årlig kontroll, ettersyn og vedlikehold på servicebro, fasadevogner og gondoler (inkl. løpekatter) fra sertifisert leverandør",627
+f91398be-be94-4b2f-ac7f-c93442e7004b,400.02,1.3,Lagre servicerapport som dokumentasjon,400
+f99a1dcc-4768-425a-923c-611eb6192d14,621.01,1.1,"Bestill årlig kontroll, ettersyn og vedlikehold på heiser fra sertifisert leverandør",621
+fa49d60f-008c-4b44-80c2-4114a3df2598,625.01,1.1,Utfør generell visuell kontroll av trappeheisen,625
+fba53bef-9dbe-42b0-8540-0620a4a8ab61,200.02,1.2,Kontroller at nødvendige reservedeler for aktuelle tekniske anlegg finnes,200
+fc50797b-985b-4028-b64f-77c46a4cf927,278.01,1.4,Kontroller at det ikke er noe som hindrer utfellbare stiger,278
+fd8b2926-769f-4303-9837-7664ab049877,542.01,1.1,"Utfør visuell kontroll, se etter feilmeldinger og kontroller at brannalarmen står i normaltilstand",542
+fdbd5ce1-dc1d-42e9-9849-54f9e2de7dce,430.01,1.14,Kontroller at skrusikringene (A - ampere) samsvarer med kursfortegnelsen,430
+fe6673ff-f1da-42aa-a65e-5480aaa0cc44,400.01,1.11,"Kontroller at det er montert tidsur for apparater som kaffetraktere, vannkokere, vifteovner o.l.",400
