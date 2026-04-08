@@ -2,7 +2,7 @@ import { useState } from 'react'
 import PageHeader from '@/components/shared/PageHeader'
 import DataTable from '@/components/shared/DataTable'
 import StatusBadge from '@/components/shared/StatusBadge'
-import { MOCK_DEVIATIONS } from '@/data/mock-deviations'
+import { useDeviations } from '@/context/DeviationContext'
 import { getCategoryLabel } from '@/data/ns3451-categories'
 import { Badge } from '@/components/ui/badge'
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select'
@@ -15,7 +15,7 @@ import { Plus } from 'lucide-react'
 import { toast } from 'sonner'
 
 export default function DeviationListPage() {
-  const [deviations, setDeviations] = useState(MOCK_DEVIATIONS)
+  const { deviations, addDeviation } = useDeviations()
   const [statusFilter, setStatusFilter] = useState('alle')
   const [severityFilter, setSeverityFilter] = useState('alle')
   const [dialogOpen, setDialogOpen] = useState(false)
@@ -162,22 +162,19 @@ export default function DeviationListPage() {
             onSubmit={(e) => {
               e.preventDefault()
               const fd = new FormData(e.target)
-              setDeviations((prev) => [
-                {
-                  id: `avvik-${Date.now()}`,
-                  title: fd.get('title'),
-                  description: fd.get('description'),
-                  ns3451Category: '31',
-                  severity: 'middels',
-                  status: 'åpent',
-                  reportedBy: 'Kari Nordmann',
-                  reportedDate: new Date().toISOString().slice(0, 10),
-                  location: fd.get('location'),
-                  actions: [],
-                  closedDate: null,
-                },
-                ...prev,
-              ])
+              addDeviation({
+                id: `avvik-${Date.now()}`,
+                title: fd.get('title'),
+                description: fd.get('description'),
+                ns3451Category: '31',
+                severity: 'middels',
+                status: 'åpent',
+                reportedBy: 'Kari Nordmann',
+                reportedDate: new Date().toISOString().slice(0, 10),
+                location: fd.get('location'),
+                actions: [],
+                closedDate: null,
+              })
               setDialogOpen(false)
               toast.success('Avvik registrert')
             }}

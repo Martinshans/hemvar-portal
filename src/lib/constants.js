@@ -49,6 +49,7 @@ export const NAV_ITEMS = [
     children: [
       { label: 'Tilstandsanalyse', path: '/tilstand' },
       { label: 'Vedlikeholdsplan', path: '/vedlikehold' },
+      { label: 'Vedlikeholdshistorikk', path: '/tilstand/historikk' },
     ],
   },
 ]

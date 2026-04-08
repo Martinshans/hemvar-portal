@@ -55,7 +55,7 @@ export default function DataTable({ columns, data, onRowClick, searchPlaceholder
         />
       </div>
 
-      <div className="rounded-md border overflow-x-auto">
+      <div className="rounded-md border overflow-x-auto bg-white">
         <table className="w-full text-sm">
           <thead>
             <tr className="border-b bg-muted/50">

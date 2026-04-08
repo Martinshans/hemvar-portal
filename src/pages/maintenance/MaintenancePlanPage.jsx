@@ -2,7 +2,7 @@ import { useState } from 'react'
 import PageHeader from '@/components/shared/PageHeader'
 import DataTable from '@/components/shared/DataTable'
 import StatusBadge from '@/components/shared/StatusBadge'
-import { MOCK_MAINTENANCE } from '@/data/mock-maintenance'
+import { useMaintenance } from '@/context/MaintenanceContext'
 import { getCategoryLabel } from '@/data/ns3451-categories'
 import { Card, CardContent } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
@@ -33,7 +33,7 @@ function formatNOK(amount) {
 }
 
 export default function MaintenancePlanPage() {
-  const [items, setItems] = useState(MOCK_MAINTENANCE)
+  const { items, addItem } = useMaintenance()
   const [dialogOpen, setDialogOpen] = useState(false)
   const [selectedItem, setSelectedItem] = useState(null)
 
@@ -218,20 +218,17 @@ export default function MaintenancePlanPage() {
             onSubmit={(e) => {
               e.preventDefault()
               const fd = new FormData(e.target)
-              setItems((prev) => [
-                {
-                  id: `vedl-${Date.now()}`,
-                  title: fd.get('title'),
-                  ns3451Category: '26',
-                  linkedConditionId: null,
-                  estimatedCost: Number(fd.get('cost')) || 0,
-                  plannedYear: Number(fd.get('year')) || 2027,
-                  priority: 'middels',
-                  status: 'planlagt',
-                  description: fd.get('description'),
-                },
-                ...prev,
-              ])
+              addItem({
+                id: `vedl-${Date.now()}`,
+                title: fd.get('title'),
+                ns3451Category: '26',
+                linkedConditionId: null,
+                estimatedCost: Number(fd.get('cost')) || 0,
+                plannedYear: Number(fd.get('year')) || 2027,
+                priority: 'middels',
+                status: 'planlagt',
+                description: fd.get('description'),
+              })
               setDialogOpen(false)
               toast.success('Vedlikeholdstiltak opprettet')
             }}

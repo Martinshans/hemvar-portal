@@ -7,12 +7,15 @@ import { getCategoryLabel } from '@/data/ns3451-categories'
 import { Badge } from '@/components/ui/badge'
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select'
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogFooter } from '@/components/ui/dialog'
+import { Sheet, SheetContent, SheetHeader, SheetTitle } from '@/components/ui/sheet'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
 import { Textarea } from '@/components/ui/textarea'
 import { Button } from '@/components/ui/button'
-import { Plus, Clock } from 'lucide-react'
+import { Plus, Clock, CheckCircle2, AlertTriangle } from 'lucide-react'
+import { cn } from '@/lib/utils'
 import { toast } from 'sonner'
+import { useDeviations } from '@/context/DeviationContext'
 
 export default function TaskListPage() {
   const [tasks, setTasks] = useState(MOCK_TASKS)
@@ -20,6 +23,13 @@ export default function TaskListPage() {
   const [priorityFilter, setPriorityFilter] = useState('alle')
   const [dialogOpen, setDialogOpen] = useState(false)
   const [selectedTask, setSelectedTask] = useState(null)
+
+  // Avvik registration
+  const [avvikDialogOpen, setAvvikDialogOpen] = useState(false)
+  const [avvikDescription, setAvvikDescription] = useState('')
+  const [avvikSeverity, setAvvikSeverity] = useState('middels')
+
+  const { addDeviation } = useDeviations()
 
   const filtered = tasks.filter((t) => {
     if (statusFilter !== 'alle' && t.status !== statusFilter) return false
@@ -71,6 +81,44 @@ export default function TaskListPage() {
     },
   ]
 
+  const handleMarkChecked = () => {
+    if (!selectedTask) return
+    setTasks((prev) =>
+      prev.map((t) => t.id === selectedTask.id ? { ...t, status: 'fullført' } : t)
+    )
+    setSelectedTask(null)
+    toast.success('Oppgave merket som sjekket')
+  }
+
+  const handleRegisterAvvik = () => {
+    if (!selectedTask) return
+
+    addDeviation({
+      id: `avvik-${Date.now()}`,
+      title: `Avvik: ${selectedTask.title}`,
+      description: avvikDescription || selectedTask.description,
+      ns3451Category: selectedTask.ns3451Category,
+      severity: avvikSeverity,
+      status: 'åpent',
+      reportedBy: 'Kari Nordmann',
+      reportedDate: new Date().toISOString().slice(0, 10),
+      location: getCategoryLabel(selectedTask.ns3451Category),
+      actions: [],
+      closedDate: null,
+    })
+
+    // Mark task as having deviation
+    setTasks((prev) =>
+      prev.map((t) => t.id === selectedTask.id ? { ...t, status: 'forfalt' } : t)
+    )
+
+    setAvvikDialogOpen(false)
+    setAvvikDescription('')
+    setAvvikSeverity('middels')
+    setSelectedTask(null)
+    toast.success('Avvik registrert — oppgaven er flyttet til åpne avvik')
+  }
+
   return (
     <div>
       <PageHeader
@@ -115,45 +163,133 @@ export default function TaskListPage() {
         searchPlaceholder="Søk i oppgaver..."
       />
 
-      <Dialog open={!!selectedTask} onOpenChange={() => setSelectedTask(null)}>
-        <DialogContent className="max-w-lg">
-          <DialogHeader>
-            <DialogTitle>{selectedTask?.title}</DialogTitle>
-          </DialogHeader>
+      {/* Task detail sheet */}
+      <Sheet open={!!selectedTask} onOpenChange={() => setSelectedTask(null)}>
+        <SheetContent side="right" className="w-[90vw] sm:w-[40vw] sm:max-w-[480px] overflow-y-auto">
+          <SheetHeader>
+            <SheetTitle>{selectedTask?.title}</SheetTitle>
+          </SheetHeader>
           {selectedTask && (
-            <div className="space-y-4">
-              <p className="text-sm text-muted-foreground">{selectedTask.description}</p>
-              <div className="grid grid-cols-2 gap-4 text-sm">
-                <div>
-                  <span className="text-muted-foreground">Bygningsdel:</span>
-                  <p className="font-medium">{getCategoryLabel(selectedTask.ns3451Category)}</p>
-                </div>
-                <div>
-                  <span className="text-muted-foreground">Ansvarlig:</span>
-                  <p className="font-medium">{selectedTask.assignedTo}</p>
-                </div>
-                <div>
-                  <span className="text-muted-foreground">Frist:</span>
-                  <p className="font-medium">{new Date(selectedTask.dueDate).toLocaleDateString('nb-NO')}</p>
-                </div>
-                <div>
-                  <span className="text-muted-foreground">Status:</span>
-                  <div className="mt-1"><StatusBadge value={selectedTask.status} /></div>
-                </div>
-                <div>
-                  <span className="text-muted-foreground">Prioritet:</span>
-                  <div className="mt-1"><StatusBadge value={selectedTask.priority} type="severity" /></div>
-                </div>
-                <div>
-                  <span className="text-muted-foreground">Gjentagende:</span>
-                  <p className="font-medium">{selectedTask.recurring ? selectedTask.recurringInterval : 'Nei'}</p>
+            <div className="space-y-4 px-4 pb-6">
+              {/* Status */}
+              <div className="rounded-lg border bg-gray-50/50 p-4">
+                <h4 className="text-xs font-medium text-muted-foreground uppercase tracking-wider mb-2">Status</h4>
+                <div className="flex items-center gap-3">
+                  <StatusBadge value={selectedTask.status} />
+                  <StatusBadge value={selectedTask.priority} type="severity" />
                 </div>
               </div>
+
+              {/* Beskrivelse */}
+              <div className="rounded-lg border bg-gray-50/50 p-4">
+                <h4 className="text-xs font-medium text-muted-foreground uppercase tracking-wider mb-2">Beskrivelse</h4>
+                <p className="text-sm">{selectedTask.description || <span className="text-muted-foreground">Ingen beskrivelse</span>}</p>
+              </div>
+
+              {/* Detaljer */}
+              <div className="rounded-lg border bg-gray-50/50 p-4">
+                <h4 className="text-xs font-medium text-muted-foreground uppercase tracking-wider mb-2">Detaljer</h4>
+                <div className="grid grid-cols-2 gap-3 text-sm">
+                  <div>
+                    <span className="text-muted-foreground">Bygningsdel</span>
+                    <p className="font-medium">{getCategoryLabel(selectedTask.ns3451Category)}</p>
+                  </div>
+                  <div>
+                    <span className="text-muted-foreground">Ansvarlig</span>
+                    <p className="font-medium">{selectedTask.assignedTo}</p>
+                  </div>
+                  <div>
+                    <span className="text-muted-foreground">Frist</span>
+                    <p className="font-medium">{new Date(selectedTask.dueDate).toLocaleDateString('nb-NO')}</p>
+                  </div>
+                  <div>
+                    <span className="text-muted-foreground">Gjentagende</span>
+                    <p className="font-medium">{selectedTask.recurring ? selectedTask.recurringInterval : 'Nei'}</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Action buttons */}
+              {selectedTask.status !== 'fullført' && (
+                <div className="space-y-3 pt-2">
+                  <Button
+                    className="w-full bg-green-600 hover:bg-green-700"
+                    onClick={handleMarkChecked}
+                  >
+                    <CheckCircle2 className="h-4 w-4 mr-2" />
+                    Sjekket / Utbedret
+                  </Button>
+                  <Button
+                    variant="outline"
+                    className="w-full border-orange-300 text-orange-700 hover:bg-orange-50"
+                    onClick={() => {
+                      setAvvikDescription('')
+                      setAvvikSeverity('middels')
+                      setAvvikDialogOpen(true)
+                    }}
+                  >
+                    <AlertTriangle className="h-4 w-4 mr-2" />
+                    Registrer avvik
+                  </Button>
+                </div>
+              )}
+
+              {selectedTask.status === 'fullført' && (
+                <div className="rounded-lg border bg-green-50 p-4 flex items-center gap-2 text-sm font-medium text-green-700">
+                  <CheckCircle2 className="h-4 w-4" />
+                  Oppgave fullført
+                </div>
+              )}
             </div>
           )}
+        </SheetContent>
+      </Sheet>
+
+      {/* Avvik registration popup */}
+      <Dialog open={avvikDialogOpen} onOpenChange={setAvvikDialogOpen}>
+        <DialogContent className="max-w-sm">
+          <DialogHeader>
+            <DialogTitle>Registrer avvik</DialogTitle>
+          </DialogHeader>
+          <p className="text-sm text-muted-foreground">
+            Registrer avvik for <strong>{selectedTask?.title}</strong>
+          </p>
+          <div className="space-y-4 mt-2">
+            <div className="space-y-2">
+              <Label>Beskrivelse av avviket</Label>
+              <Textarea
+                placeholder="Beskriv hva som er galt..."
+                value={avvikDescription}
+                onChange={(e) => setAvvikDescription(e.target.value)}
+              />
+            </div>
+            <div className="space-y-2">
+              <Label>Alvorlighetsgrad</Label>
+              <Select value={avvikSeverity} onValueChange={setAvvikSeverity}>
+                <SelectTrigger>
+                  <SelectValue />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="lav">Lav</SelectItem>
+                  <SelectItem value="middels">Middels</SelectItem>
+                  <SelectItem value="høy">Høy</SelectItem>
+                  <SelectItem value="kritisk">Kritisk</SelectItem>
+                </SelectContent>
+              </Select>
+            </div>
+          </div>
+          <DialogFooter>
+            <Button variant="outline" onClick={() => setAvvikDialogOpen(false)}>
+              Avbryt
+            </Button>
+            <Button className="bg-orange-600 hover:bg-orange-700" onClick={handleRegisterAvvik}>
+              Registrer avvik
+            </Button>
+          </DialogFooter>
         </DialogContent>
       </Dialog>
 
+      {/* New task dialog */}
       <Dialog open={dialogOpen} onOpenChange={setDialogOpen}>
         <DialogContent>
           <DialogHeader>

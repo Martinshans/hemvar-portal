@@ -5,16 +5,30 @@ import TaskListPage from './pages/tasks/TaskListPage'
 import DeviationListPage from './pages/deviations/DeviationListPage'
 import DocumentArchivePage from './pages/documents/DocumentArchivePage'
 import ConditionListPage from './pages/condition/ConditionListPage'
+import VedlikeholdshistorikkPage from './pages/condition/VedlikeholdshistorikkPage'
 import MaintenancePlanPage from './pages/maintenance/MaintenancePlanPage'
 import SubscriptionPage from './pages/subscription/SubscriptionPage'
 import UserManagementPage from './pages/admin/UserManagementPage'
 import SettingsPage from './pages/admin/SettingsPage'
 import KontrollRunPage from './pages/kontroll/KontrollRunPage'
+import DownloadReportPage from './pages/public/DownloadReportPage'
+import WaitlistPage from './pages/public/WaitlistPage'
+import { MaintenanceProvider } from './context/MaintenanceContext'
+import { ConditionProvider } from './context/ConditionContext'
+import { DeviationProvider } from './context/DeviationContext'
 
 function App() {
   return (
     <BrowserRouter>
+    <MaintenanceProvider>
+    <ConditionProvider>
+    <DeviationProvider>
       <Routes>
+        {/* Public rapport-nedlastningsside — uten sidebar */}
+        <Route path="/rapport/:token" element={<DownloadReportPage />} />
+        <Route path="/rapport" element={<DownloadReportPage />} />
+        <Route path="/ventelisten" element={<WaitlistPage />} />
+
         <Route element={<AppShell />}>
           {/* Oversikt */}
           <Route path="/dashboard" element={<DashboardPage />} />
@@ -38,6 +52,7 @@ function App() {
 
           {/* Tilstand */}
           <Route path="/tilstand" element={<ConditionListPage />} />
+          <Route path="/tilstand/historikk" element={<VedlikeholdshistorikkPage />} />
           <Route path="/vedlikehold" element={<MaintenancePlanPage />} />
 
           {/* Admin / Innstillinger */}
@@ -47,6 +62,9 @@ function App() {
         </Route>
         <Route path="*" element={<Navigate to="/dashboard" replace />} />
       </Routes>
+    </DeviationProvider>
+    </ConditionProvider>
+    </MaintenanceProvider>
     </BrowserRouter>
   )
 }
