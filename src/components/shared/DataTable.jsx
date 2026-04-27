@@ -51,7 +51,7 @@ export default function DataTable({ columns, data, onRowClick, searchPlaceholder
           placeholder={searchPlaceholder}
           value={search}
           onChange={(e) => { setSearch(e.target.value); setPage(0) }}
-          className="pl-9 max-w-sm"
+          className="pl-9 max-w-sm bg-white"
         />
       </div>
 

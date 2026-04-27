@@ -11,14 +11,18 @@ import SubscriptionPage from './pages/subscription/SubscriptionPage'
 import UserManagementPage from './pages/admin/UserManagementPage'
 import SettingsPage from './pages/admin/SettingsPage'
 import KontrollRunPage from './pages/kontroll/KontrollRunPage'
+import BygningsdelListPage from './pages/bygningsdeler/BygningsdelListPage'
+import BygningsdelDetailPage from './pages/bygningsdeler/BygningsdelDetailPage'
 import DownloadReportPage from './pages/public/DownloadReportPage'
 import WaitlistPage from './pages/public/WaitlistPage'
 import { MaintenanceProvider } from './context/MaintenanceContext'
 import { ConditionProvider } from './context/ConditionContext'
 import { DeviationProvider } from './context/DeviationContext'
+import PasswordGate from './components/auth/PasswordGate'
 
 function App() {
   return (
+    <PasswordGate>
     <BrowserRouter>
     <MaintenanceProvider>
     <ConditionProvider>
@@ -35,6 +39,8 @@ function App() {
 
           {/* Eiendom */}
           <Route path="/eiendom/bygg" element={<DashboardPage />} />
+          <Route path="/eiendom/bygningsdeler" element={<BygningsdelListPage />} />
+          <Route path="/eiendom/bygningsdeler/:code" element={<BygningsdelDetailPage />} />
           <Route path="/dokumenter" element={<DocumentArchivePage />} />
 
           {/* Oppgaver — samlet (inkl. kontrollrunder) */}
@@ -66,6 +72,7 @@ function App() {
     </ConditionProvider>
     </MaintenanceProvider>
     </BrowserRouter>
+    </PasswordGate>
   )
 }
 

@@ -24,6 +24,7 @@ export const NAV_ITEMS = [
     icon: Building2,
     children: [
       { label: 'Byggoversikt', path: '/eiendom/bygg' },
+      { label: 'Bygningsdeler', path: '/eiendom/bygningsdeler' },
       { label: 'Dokumentarkiv', path: '/dokumenter' },
     ],
   },

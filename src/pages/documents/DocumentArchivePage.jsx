@@ -10,7 +10,7 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogFooter } from '
 import { Label } from '@/components/ui/label'
 import {
   FolderOpen, FileText, FileSpreadsheet, File, Upload,
-  Search, ChevronRight, ChevronDown, Trash2
+  Search, ChevronRight, ChevronDown, Trash2, Download
 } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import { toast } from 'sonner'
@@ -137,7 +137,7 @@ export default function DocumentArchivePage() {
               placeholder="Søk i dokumenter..."
               value={search}
               onChange={(e) => setSearch(e.target.value)}
-              className="pl-9 max-w-sm"
+              className="pl-9 max-w-sm bg-white"
             />
           </div>
 
@@ -147,7 +147,7 @@ export default function DocumentArchivePage() {
               <p>Ingen dokumenter funnet</p>
             </div>
           ) : (
-            <div className="rounded-md border divide-y">
+            <div className="rounded-md border divide-y bg-white">
               {filteredDocs.map((doc) => {
                 const Icon = FILE_ICONS[doc.type] || File
                 return (
@@ -172,6 +172,14 @@ export default function DocumentArchivePage() {
                     <Badge variant="secondary" className="text-xs uppercase">
                       {doc.type}
                     </Badge>
+                    <Button
+                      variant="ghost"
+                      size="icon"
+                      className="h-8 w-8 text-muted-foreground hover:text-hemvar-700"
+                      onClick={() => toast.success(`Laster ned ${doc.name}`)}
+                    >
+                      <Download className="h-4 w-4" />
+                    </Button>
                     <Button
                       variant="ghost"
                       size="icon"
