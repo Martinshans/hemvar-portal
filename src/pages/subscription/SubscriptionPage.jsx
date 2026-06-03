@@ -94,7 +94,7 @@ export default function SubscriptionPage() {
         <CardContent>
           <div className="bg-muted/50 rounded-lg p-6 text-center text-muted-foreground">
             <p className="text-sm">
-              Betaling håndteres via Vipps/Stripe — integrasjon kommer snart.
+              Betaling håndteres via faktura med KID-nummer.
             </p>
           </div>
         </CardContent>
